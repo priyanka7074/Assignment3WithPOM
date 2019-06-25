@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17569" started-at="2019-06-25T23:05:58Z" finished-at="2019-06-25T23:06:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17569" started-at="2019-06-25T23:05:58Z" finished-at="2019-06-25T23:06:16Z">
+      <class name="com.capsule.qa.testcases.NewUserPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsule.qa.testcases.NewUserPageTest@6093dd95]" name="setUp" is-config="true" duration-ms="13764" started-at="2019-06-25T23:06:00Z" finished-at="2019-06-25T23:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.capsule.qa.testcases.NewUserPageTest@6093dd95]" name="validateNewUserTest" duration-ms="2072" started-at="2019-06-25T23:06:14Z" data-provider="getCapsuleTestDatas" finished-at="2019-06-25T23:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tsharma@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tsharma12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewUserTest -->
+      </class> <!-- com.capsule.qa.testcases.NewUserPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
